@@ -24,7 +24,7 @@
 		BB66677C1D31F4650072C309 /* HQFontImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB66677B1D31F4650072C309 /* HQFontImage.m */; };
 		BB66677F1D31F5EB0072C309 /* HQFontImageDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BB66677E1D31F5EB0072C309 /* HQFontImageDictionary.m */; };
 		BBFFEA1B1D334C3900CE9E53 /* HQFontImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFEA1A1D334C3900CE9E53 /* HQFontImageList.m */; };
-		BBFFEA1D1D334C6700CE9E53 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBFFEA1C1D334C6700CE9E53 /* iconfont.ttf */; };
+		BBFFEA8F1D34A43700CE9E53 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBFFEA8E1D34A43700CE9E53 /* iconfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,7 @@
 		BB66677E1D31F5EB0072C309 /* HQFontImageDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQFontImageDictionary.m; sourceTree = "<group>"; };
 		BBFFEA191D334C3900CE9E53 /* HQFontImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQFontImageList.h; sourceTree = "<group>"; };
 		BBFFEA1A1D334C3900CE9E53 /* HQFontImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQFontImageList.m; sourceTree = "<group>"; };
-		BBFFEA1C1D334C6700CE9E53 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		BBFFEA8E1D34A43700CE9E53 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				52DEC0E51ACF1AA000447ACC /* AppDelegate.m */,
 				52DEC0E61ACF1AA000447ACC /* Controller */,
 				52DEC0EB1ACF1AA000447ACC /* LLIconfont.ttf */,
-				BBFFEA1C1D334C6700CE9E53 /* iconfont.ttf */,
+				BBFFEA8E1D34A43700CE9E53 /* iconfont.ttf */,
 				52DEC0EC1ACF1AA000447ACC /* TBCityIconDefine.h */,
 				52DEC0ED1ACF1AA000447ACC /* Utility */,
 				52DEC0EE1ACF1AA000447ACC /* View */,
@@ -239,7 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBFFEA1D1D334C6700CE9E53 /* iconfont.ttf in Resources */,
+				BBFFEA8F1D34A43700CE9E53 /* iconfont.ttf in Resources */,
 				52DEC0F81ACF1AA000447ACC /* LaunchScreen.xib in Resources */,
 				52DEC0FE1ACF1AA000447ACC /* appreciate200@2x.png in Resources */,
 				52DEC0FF1ACF1AA000447ACC /* appreciate32@2x.png in Resources */,

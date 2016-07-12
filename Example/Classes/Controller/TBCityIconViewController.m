@@ -36,7 +36,8 @@
     _appreciateIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] inset:UIEdgeInsetsMake(10, 10, 10, 10)];
     _checkIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor blueColor] padding:0.3 withBackgroundColor:[UIColor yellowColor]];
     _closeIcon.image = [HQFontImageDictionary iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
-    //自定义，但两个字体会有上下偏移不同，不知道是否字体文件问题
+    //自定义，但两个字体会有上下偏移不同，不知道是否字体文件问题（官方已修正）
+    //@0712 官方提示：iconfont调整了基线位置详情点此了解 。如果发现老项目icon有所偏移请点此处理。
     _editIcon.image = [HQFontImageList iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
     _emojiIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] withBackgroundColor:[UIColor blackColor]];
     
