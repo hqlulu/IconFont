@@ -15,7 +15,6 @@
 @property (nonatomic, strong) UIColor *backgroundColor;
 @property (nonatomic, strong) NSString *fontName;
 
-- (instancetype)initWithText:(NSString *)text size:(NSInteger)size;
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color;
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color inset:(UIEdgeInsets)inset;
 + (instancetype)iconInfoWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color;

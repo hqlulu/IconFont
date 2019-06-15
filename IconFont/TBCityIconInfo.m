@@ -20,15 +20,6 @@
     return self;
 }
 
-- (instancetype)initWithText:(NSString *)text size:(NSInteger)size {
-    if (self = [super init]) {
-        self.text = text;
-        self.size = size;
-        self.imageInsets = UIEdgeInsetsZero;
-    }
-    return self;
-}
-
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color inset:(UIEdgeInsets)inset {
     if (self = [super init]) {
         self.text = text;
@@ -37,10 +28,6 @@
         self.imageInsets = inset;
     }
     return self;
-}
-
-+ (instancetype)iconInfoWithText:(NSString *)text size:(NSInteger)size {
-    return [[TBCityIconInfo alloc] initWithText:text size:size];
 }
 
 + (instancetype)iconInfoWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color {

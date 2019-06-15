@@ -28,11 +28,6 @@
     return code ?: name;
 }
 
-+ (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size
-{
-    return [self iconWithName:name fontSize:size color:color inset:UIEdgeInsetsZero withBackgroundColor:nil];
-}
-
 + (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color
 {
     return [self iconWithName:name fontSize:size color:color inset:UIEdgeInsetsZero withBackgroundColor:nil];
@@ -56,13 +51,6 @@
 }
 
 + (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color padding:(CGFloat)paddingPercent withBackgroundColor:(UIColor*)backgroundColor
-{
-    CGFloat padding = size * paddingPercent;
-    UIEdgeInsets inset = UIEdgeInsetsMake(padding, padding, padding, padding);
-    return [self iconWithName:name fontSize:size color:color inset:inset withBackgroundColor:backgroundColor];
-}
-
-+ (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size padding:(CGFloat)paddingPercent withBackgroundColor:(UIColor*)backgroundColor
 {
     CGFloat padding = size * paddingPercent;
     UIEdgeInsets inset = UIEdgeInsetsMake(padding, padding, padding, padding);
