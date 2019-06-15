@@ -37,7 +37,11 @@
          * 如果这里抛出异常，请打开断点列表，右击All Exceptions -> Edit Breakpoint -> All修改为Objective-C
          * See: http://stackoverflow.com/questions/1163981/how-to-add-a-breakpoint-to-objc-exception-throw/14767076#14767076
          */
-        [info.text drawAtPoint:point withAttributes:@{NSFontAttributeName:font, NSForegroundColorAttributeName: info.color}];
+        if (info.color) {
+            [info.text drawAtPoint:point withAttributes:@{NSFontAttributeName:font, NSForegroundColorAttributeName: info.color}];
+        }else{
+            [info.text drawAtPoint:point withAttributes:@{NSFontAttributeName:font}];
+        }
     } else {
         
 #pragma clang diagnostic push

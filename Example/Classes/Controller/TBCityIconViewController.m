@@ -33,7 +33,7 @@
     [super viewDidLoad];
     
     //使用名字的方式引用
-    _appreciateIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] inset:UIEdgeInsetsMake(10, 10, 10, 10)];
+    _appreciateIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:nil inset:UIEdgeInsetsMake(10, 10, 10, 10)];
     _checkIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor blueColor] padding:0.3 withBackgroundColor:[UIColor yellowColor]];
     _closeIcon.image = [HQFontImageDictionary iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
     //自定义，但两个字体会有上下偏移不同，不知道是否字体文件问题（官方已修正）
