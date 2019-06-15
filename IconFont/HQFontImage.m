@@ -30,7 +30,7 @@
 
 + (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size
 {
-    return [self iconWithName:name fontSize:size inset:UIEdgeInsetsZero withBackgroundColor:nil];
+    return [self iconWithName:name fontSize:size color:color inset:UIEdgeInsetsZero withBackgroundColor:nil];
 }
 
 + (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color
